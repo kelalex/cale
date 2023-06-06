@@ -11,3 +11,5 @@ if func == '-':
 if func == '*':
     print(a1 * a2)
 
+if func == '/':
+    print(a1 // a2)
