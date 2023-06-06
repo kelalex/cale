@@ -5,11 +5,14 @@ func = input('Введите математическое действие:')
 if func == '+':
     print(a1 + a2)
 
-if func == '-':
+elif func == '-':
     print(a1 - a2)
 
-if func == '*':
+elif func == '*':
     print(a1 * a2)
 
-if func == '/':
+elif func == '/':
     print(a1 // a2)
+
+else:
+    print('Такое действие не разработано.')
