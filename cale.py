@@ -5,3 +5,6 @@ func = input('Введите математическое действие:')
 if func == '+':
     print(a1 + a2)
 
+if func == '-':
+    print(a1 - a2)
+
